@@ -86,18 +86,18 @@ export const skills = [
 
 export const qualifications = [
   {
-    year: "2026",
-    title: "Softwareentwicklerin",
-    text: "Schwerpunkt JavaScript"
+    year: "2024",
+    title: "Zertifizierte Softwareentwicklerin JavaScript",
+    text: "Moderne Webanwendungen mit JavaScript"
   },
   {
-    year: "2026",
-    title: "Web Developer",
+    year: "2024",
+    title: "Zertifikat Web Developer",
     text: "Weiterbildung und Qualifikation"
   },
   {
-    year: "2026",
-    title: "Web Designer",
-    text: "Weiterbildung und Qualifikation"
+    year: "2024",
+    title: "Zertifikat Web Designer",
+    text: "Webdesign & Usability"
   }
 ];

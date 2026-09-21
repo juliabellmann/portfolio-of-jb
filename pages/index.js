@@ -332,7 +332,7 @@ export default function Home() {
               Webentwicklung in einem professionellen Umfeld einzusetzen.
             </p>
             <div className="contact-actions">
-              <a className="button button-dark" href="mailto:deine-email@example.com">
+              <a className="button button-dark" href="mailto:bellmann-mail@web.de">
                 Kontakt aufnehmen
               </a>
               <a className="button button-light" href="https://github.com/juliabellmann/" target="_blank" rel="noreferrer">
@@ -354,10 +354,10 @@ export default function Home() {
           </div>
           <div className="footer-links">
             <a href="https://github.com/juliabellmann/" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="#" aria-label="LinkedIn Platzhalter">LinkedIn</a>
-            <a href="mailto:deine-email@example.com">E-Mail</a>
+            {/* <a href="#" aria-label="LinkedIn Platzhalter">LinkedIn</a> */}
+            <a href="mailto:bellmann-mail@web.de">E-Mail</a>
           </div>
-          <div className="footer-meta">© 2026 Julia Bellmann · Impressum · Datenschutz</div>
+          <div className="footer-meta">© 2026 Julia Bellmann</div>
         </div>
       </footer>
     </>
