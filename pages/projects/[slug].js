@@ -49,17 +49,50 @@ export default function ProjectPage({ project }) {
             </div>
           </div>
 
-          <div className={`case-visual project-preview preview-case-${project.slug}`}>
-            <div className="browser-bar"><i /><i /><i /><span>{project.slug}</span></div>
-            <div className="mock-dashboard">
-              <div className="mock-sidebar"><b>JB</b><span /><span /><span /><span /></div>
-              <div className="mock-content">
-                <div className="mock-title">{project.title}</div>
-                <div className="mock-cards"><div /><div /><div /></div>
-                <div className="mock-table"><span /><span /><span /><span /><span /></div>
-              </div>
-            </div>
-          </div>
+<div className={`case-visual project-preview preview-case-${project.slug}`}>
+  <div className="browser-bar">
+    <i />
+    <i />
+    <i />
+    <span>{project.slug}</span>
+  </div>
+
+  {project.screenshot ? (
+    <img
+      src={project.screenshot}
+      alt={`Screenshot von ${project.title}`}
+      className="project-screenshot"
+    />
+  ) : (
+    <div className="mock-dashboard">
+      <div className="mock-sidebar">
+        <b>JB</b>
+        <span />
+        <span />
+        <span />
+        <span />
+      </div>
+
+      <div className="mock-content">
+        <div className="mock-title">{project.title}</div>
+
+        <div className="mock-cards">
+          <div />
+          <div />
+          <div />
+        </div>
+
+        <div className="mock-table">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+      </div>
+    </div>
+  )}
+</div>
 
           <div className="case-grid">
             <div>

@@ -40,7 +40,8 @@ export const projects = [
     stack: ["JavaScript", "React", "Next.js", "API"],
     features: ["Zufällige Vogel-Auswahl", "Persistenter Fortschritt", "Datenbankanbindung"],
     demo: "https://schnegel-vogel-randomizer.vercel.app/",
-    github: "https://github.com/juliabellmann/schnegel-vogel-randomizer"
+    github: "https://github.com/juliabellmann/schnegel-vogel-randomizer",
+    screenshot:"/images/nabudashboard.jpg"
   },
   {
     slug: "baking-compendium",

@@ -430,7 +430,8 @@ h3 {
 .project-preview {
   background: var(--color-preview-main);
   min-height: 440px;
-  overflow: hidden;
+  object-fit: contain;
+  /* overflow: hidden; */
 }
 
 .large-preview {
@@ -1070,6 +1071,22 @@ h3 {
   padding-top: 35px;
 }
 
+.case-screenshot {
+  width: 100%;
+  height: calc(100% - 36px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.case-screenshot img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
 
 /* ==================================
    Responsive
@@ -1251,10 +1268,14 @@ h3 {
     padding: 60px 0 35px;
   }
 
-  .case-visual {
-    min-height: 330px;
-    margin-bottom: 55px;
-  }
+.case-visual {
+  width: 100%;
+  height: 550px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 100px;
+  background: var(--color-preview-main);
+}
 
   .case-visual .mock-dashboard {
     height: 250px;
